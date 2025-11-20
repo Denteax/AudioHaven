@@ -1,1 +1,26 @@
-temp text
+audiohaven/
+├─ main.rs
+├─ app.rs
+├─ audio/
+│  ├─ mod.rs
+│  ├─ player.rs
+│  └─ sinks.rs
+├─ data/
+│  ├─ button.rs
+│  ├─ layout.rs
+│  ├─ storage.rs
+│  └─ mod.rs
+├─ ui/
+│  ├─ dock/
+│  │  ├─ modules/
+│  │  │  ├─ devices.rs
+│  │  │  ├─ mixer.rs
+│  │  │  ├─ soundboard.rs
+│  │  │  └─ mod.rs
+│  │  ├─ manager.rs
+│  │  └─ tabs.rs
+│  ├─ grid.rs
+│  ├─ layout.rs
+│  ├─ sidebar.rs
+│  ├─ topbar.rs
+│  └─ mod.rs
